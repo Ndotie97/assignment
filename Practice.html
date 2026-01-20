@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMMUNITY LEARNING HUB</title>
+
+</head>
+<body>
+    <header>
+        <img src="https://res.cloudinary.com/dkyxz2q0y/image/upload/v1768564063/community_learning_hub_azfnqb.jpg"
+         alt="Community Learning Hub" width="20%" height="70px">
+        <nav>
+           <li><a href="Home.html">Home</a>
+            <li><a href="About.html">About Us</a>
+            <li><a href="Courses.html">Courses</a>
+            <li><a href="Contact.html">Contact</a></li>
+        </nav>
+        <h1 text align="center">COMMUNITY LEARNING HUB</h1>
+    </header>
+    <!--MAIN CONTENT-->
+    <main>
+
+        <!-- SECTION1: ABOUT THE COMMUNITY LEARNING HUB-->
+         <Section id="About The Community Learning Hub">
+          <h2 text align="center">About The Community Learning Hub</h2>
+            <p>The Community Learning Hub is a platform dedicated to providing accessible and inclusive 
+                educational resources for all learners in our community. 
+                We aim to foster a supportive environment where individuals can explore new skills, connect with others, 
+                and grow academically.</p>
+                <figure></figure>
+                <img src="https://res.cloudinary.com/dkyxz2q0y/image/upload/v1768564063/community_learning_hub_azfnqb.jpg"
+                <figcaption>Community Learning Hub</figcaption>
+         <!--UPCOMING PROGRAMS-->       
+
+        </section>
+        <!-- SECTION2: UPCOMING PROGRAMS -->
+        <section id="Programs">
+            <h2 text align="center">Upcoming Programs</h2>
+            <ul>
+                <li><strong>Digital Literacy Workshop</strong> - Learn the basics of computer use, internet navigation,
+                     and online safety. 
+                    Date: July 15, 2024</li>
+                <li><strong>Creative Writing Course</strong> - Explore your creativity through writing exercises
+                     and peer reviews. 
+                    Date: August 1, 2024</li>
+                <li><strong>Financial Literacy Seminar</strong> - Gain essential skills in budgeting, saving, 
+                    and investing. 
+                    Date: September 10, 2024</li>
+
+            </ul>
+            </section>
+        <!-- SECTION3: PROGRAM SCHEDULE -->
+         <section id="Program Schedule">
+            <h2 text align="center">Program Schedule</h2>
+            <thead>
+                <table border="1">
+                <tr>
+                    <th scope="col">Program</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Time</th>
+                    <th scope="col">Location</th> 
+                </tr>
+                <tbody>
+                    <tr>
+                        <th scope="row">Digital Literacy Workshop</th>
+                    <td>July 15, 2024</td>
+                    <td>10:00 AM - 12:00 PM</td>
+                    <td>Community Center</td>
+                </tr>
+                <tr>
+                    <th scope="row">Creative Writing Course</th>
+                    <td>August 1, 2024</td>
+                    <td>2:00 PM - 4:00 PM</td>
+                    <td>School Library</td>
+                </tr>
+                <tr>
+                    <th scope="row">Financial Literacy Seminar</th>
+                    <td>September 10, 2024</td>
+                    <td>9:30 AM - 11:30 AM</td>
+                    <td>Community Center</td>
+                </tr>
+                </tbody>
+                </table>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Schedule subject to change. For more information, 
+                            please contact us at info@communitylearninghub.org</td>
+                    </tr>`
+                </tfoot>
+            </table>
+            </section>
+        <!-- SECTION4: MEDIA SECTION -->
+         <Section id="Media Section">
+            <h2>Learning Hub Introduction Video</h2>
+            <video controls autoplay loop muted width="600" height="400">
+                <source src=https://res.cloudinary.com/dkyxz2q0y/video/upload/v1768781664/The_Community_Learning_HUB_b8x7px.mp4
+                    type="video/mp4">
+                    Your browser does not support the video
+                    </video>
+        <!--ASIDE: GET INVOLVED-->
+         <aside id="Get Involved">
+                <h2 text align="center">Get Involved</h2>
+                <p>We welcome volunteers and community members to join us in making a difference. 
+                 Whether you want to teach a class, help with event planning, or simply spread the word</p>
+                 </aside>
+
+        <blockquote>
+            <p>"Education is the most powerful weapon which you can use to change the world." - Nelson Mandela   
+                </p>       
+        </blockquote>
+        <P>
+        <abbr title="Frequently Asked Questions">FAQ</abbr> sessions will be held after each program 
+        </P>
+        
+       <details>
+        <summary>More Information</summary>
+        <p>For more details about our programs </p>
+         </details>
+
+    <!--REGISTRATION FORM-->
+    <section id="Registration Form">
+        <h2 text align="center">Registration Form</h2>
+        <form action="/submit_registration" method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="full_name">Full Name:</label>
+                <input type="text" id="full_name" name="full_name" required><br><br>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone"><br><br>
+                <label for="program">Select Program:</label>
+                <select id="program" name="program" required>
+                    <option value="digital_literacy">Digital Literacy Workshop</option>
+                    <option value="creative_writing">Creative Writing Course</option
+                        <option value="financial_literacy"></option
+                            <option value="financial_literacy">Financial Literacy Seminar</option>
+                            </select><br><br>
+                
+            </fieldset>
+            <fieldset>
+                <legend>Learning Preferences</legend>
+                <label>
+                    <input type="checkbox" name="preferences" value="in_person">
+                    In-Person Attendance <br></br>
+                    <input type="checkbox" name="preferences" value="online">
+                    Online Attendance<br></br>
+                    </label>
+                    <input type="checkbox" name="preferences" value="recorded">
+                    Recorded Sessions
+                 </fieldset>
+                    <fieldset>
+                        <legend>
+                            Additional Information
+                        </legend>
+                        <label for="comments">Comments or Questions:</label><br>
+                        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+
+            </fieldset>
+            <button type="submit"> submit Registration</button>
+            </form>
+            </section>
+            <!--FOOTER-->
+            <address>
+                Contact us at: <a href="mailto:www.communitylearninghub.org">
+                    www.communitylearninghub</a>
+                123 Learning St., Education City, ED 45678
+                Phone: (123) 456-7890
+
+            </address>
+            <footer>
+                <p>&copy; 2026 Community Learning Hub. All rights reserved.</p>
+            </footer>
+            </Section>
+            </main>
+            </body>
+            </html>
+
+        
+
+
+                    
+
+    </main>
+
+</body>
+</html>
